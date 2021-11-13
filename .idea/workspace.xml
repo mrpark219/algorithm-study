@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step2/BJ1330.java" afterDir="false" />
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step2/BJ9498.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636680172321</updated>
       <workItem from="1636680175768" duration="91000" />
-      <workItem from="1636768938745" duration="2633000" />
+      <workItem from="1636768938745" duration="4061000" />
+      <workItem from="1636784672352" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869">
       <created>1636780861086</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636782350810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330">
+      <created>1636782581708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636782581708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +149,7 @@
     <MESSAGE value="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869" />
     <MESSAGE value="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430" />
     <MESSAGE value="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588" />
+    <MESSAGE value="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330" />
   </component>
 </project>
