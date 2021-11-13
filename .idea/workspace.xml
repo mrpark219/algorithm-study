@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557" />
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +29,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/baekjoon/steps/step1" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java_Code\Algorithm_study\src\baekjoon\steps\step1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,6 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1636680172321</updated>
       <workItem from="1636680175768" duration="158000" />
+      <workItem from="1636777476070" duration="114000" />
+      <workItem from="1636778408330" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557">
       <created>1636680307953</created>
@@ -46,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636680307953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718">
+      <created>1636777567634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636777567634</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,9 +79,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557" />
+    <MESSAGE value="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718" />
   </component>
 </project>
