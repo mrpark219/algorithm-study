@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430">
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step2/BJ1330.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20nV7JGmY29YUsEWlXufSLR1xLf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636680172321</updated>
       <workItem from="1636680175768" duration="91000" />
-      <workItem from="1636768938745" duration="2318000" />
+      <workItem from="1636768938745" duration="2633000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869">
       <created>1636780861086</created>
@@ -91,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636781562609</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588">
+      <created>1636782350810</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636782350810</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869" />
     <MESSAGE value="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430" />
+    <MESSAGE value="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588" />
   </component>
 </project>
