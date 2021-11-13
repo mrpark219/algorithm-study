@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 10172번 완료&#10;https://www.acmicpc.net/problem/10172">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step1/BJ1000.java" afterDir="false" />
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step1/BJ1008.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Java_Code\Algorithm_study\src\baekjoon\steps\step1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Java_Code\Algorithm_study\src\baekjoon\steps\step1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,7 +51,7 @@
       <updated>1636680172321</updated>
       <workItem from="1636680175768" duration="158000" />
       <workItem from="1636777476070" duration="114000" />
-      <workItem from="1636778408330" duration="950000" />
+      <workItem from="1636778408330" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557">
       <created>1636680307953</created>
@@ -78,7 +81,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636778784278</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 백준 1000번 완료&#10;https://www.acmicpc.net/problem/1000">
+      <created>1636779405322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636779405322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: 백준 1001번 완료&#10;https://www.acmicpc.net/problem/1001">
+      <created>1636779440143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636779440143</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998">
+      <created>1636779602855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636779602855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +125,9 @@
     <MESSAGE value="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718" />
     <MESSAGE value="feat: 백준 10171번 완료&#10;https://www.acmicpc.net/problem/10171" />
     <MESSAGE value="feat: 백준 10172번 완료&#10;https://www.acmicpc.net/problem/10172" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 10172번 완료&#10;https://www.acmicpc.net/problem/10172" />
+    <MESSAGE value="feat: 백준 1000번 완료&#10;https://www.acmicpc.net/problem/1000" />
+    <MESSAGE value="feat: 백준 1001번 완료&#10;https://www.acmicpc.net/problem/1001" />
+    <MESSAGE value="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998" />
   </component>
 </project>
