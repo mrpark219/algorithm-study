@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 1008번 완료&#10;https://www.acmicpc.net/problem/1008" />
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="chore: BJ2739 패키지 변경">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step3/BJ10950.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +139,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
