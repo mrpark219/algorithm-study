@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="chore: BJ2739 패키지 변경">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step3/BJ10950.java" afterDir="false" />
+    <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 14681번 완료 &#10;https://www.acmicpc.net/problem/14681">
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step3/BJ8393.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="20nV7JGmY29YUsEWlXufSLR1xLf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,24 +38,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/baekjoon/steps/step1" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Coding\Java_Code\Algorithm_study\src\baekjoon\steps\step1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding\Java_Code\Algorithm_study\src\baekjoon\steps\step1" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="BJ2739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekjoon.steps.step2.BJ2739" />
+    <configuration name="BJ2588" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.steps.step1.BJ2588" />
       <module name="Algorithm_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekjoon.steps.step2.*" />
+          <option name="PATTERN" value="baekjoon.steps.step1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,7 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BJ2739" />
+        <item itemvalue="Application.BJ2588" />
       </list>
     </recent_temporary>
   </component>
@@ -68,67 +69,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636680172321</updated>
-      <workItem from="1636680175768" duration="158000" />
-      <workItem from="1636777476070" duration="114000" />
-      <workItem from="1636778408330" duration="1908000" />
+      <workItem from="1636680175768" duration="91000" />
+      <workItem from="1636768938745" duration="4061000" />
+      <workItem from="1636784672352" duration="573000" />
+      <workItem from="1636821066682" duration="35000" />
+      <workItem from="1636974869132" duration="2518000" />
+      <workItem from="1637284315657" duration="231000" />
     </task>
-    <task id="LOCAL-00001" summary="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557">
-      <created>1636680307953</created>
+    <task id="LOCAL-00001" summary="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869">
+      <created>1636780861086</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1636680307953</updated>
+      <updated>1636780861086</updated>
     </task>
-    <task id="LOCAL-00002" summary="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718">
-      <created>1636777567634</created>
+    <task id="LOCAL-00002" summary="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430">
+      <created>1636781144876</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1636777567634</updated>
+      <updated>1636781144876</updated>
     </task>
-    <task id="LOCAL-00003" summary="feat: 백준 10171번 완료&#10;https://www.acmicpc.net/problem/10171">
-      <created>1636778729109</created>
+    <task id="LOCAL-00003" summary="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869">
+      <created>1636781537902</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1636778729109</updated>
+      <updated>1636781537902</updated>
     </task>
-    <task id="LOCAL-00004" summary="feat: 백준 10172번 완료&#10;https://www.acmicpc.net/problem/10172">
-      <created>1636778784278</created>
+    <task id="LOCAL-00004" summary="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430">
+      <created>1636781562609</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1636778784278</updated>
+      <updated>1636781562609</updated>
     </task>
-    <task id="LOCAL-00005" summary="feat: 백준 1000번 완료&#10;https://www.acmicpc.net/problem/1000">
-      <created>1636779405322</created>
+    <task id="LOCAL-00005" summary="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588">
+      <created>1636782350810</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1636779405322</updated>
+      <updated>1636782350810</updated>
     </task>
-    <task id="LOCAL-00006" summary="feat: 백준 1001번 완료&#10;https://www.acmicpc.net/problem/1001">
-      <created>1636779440143</created>
+    <task id="LOCAL-00006" summary="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330">
+      <created>1636782581708</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1636779440143</updated>
+      <updated>1636782581708</updated>
     </task>
-    <task id="LOCAL-00007" summary="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998">
-      <created>1636779602855</created>
+    <task id="LOCAL-00007" summary="feat: 백준 9498번 완료 &#10;https://www.acmicpc.net/problem/9498">
+      <created>1636821094116</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1636779602855</updated>
+      <updated>1636821094116</updated>
     </task>
-    <task id="LOCAL-00008" summary="feat: 백준 1008번 완료&#10;https://www.acmicpc.net/problem/1008">
-      <created>1636780316307</created>
+    <task id="LOCAL-00008" summary="feat: 백준 2753번 완료 &#10;https://www.acmicpc.net/problem/2753">
+      <created>1636976214445</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1636780316307</updated>
+      <updated>1636976214445</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: 백준 14681번 완료 &#10;https://www.acmicpc.net/problem/14681">
+      <created>1636978498320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636978498320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +156,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -159,14 +170,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: 백준 2557번 완료&#10;https://www.acmicpc.net/problem/2557" />
-    <MESSAGE value="feat: 백준 10718번 완료&#10;https://www.acmicpc.net/problem/10718" />
-    <MESSAGE value="feat: 백준 10171번 완료&#10;https://www.acmicpc.net/problem/10171" />
-    <MESSAGE value="feat: 백준 10172번 완료&#10;https://www.acmicpc.net/problem/10172" />
-    <MESSAGE value="feat: 백준 1000번 완료&#10;https://www.acmicpc.net/problem/1000" />
-    <MESSAGE value="feat: 백준 1001번 완료&#10;https://www.acmicpc.net/problem/1001" />
-    <MESSAGE value="feat: 백준 10998번 완료&#10;https://www.acmicpc.net/problem/10998" />
-    <MESSAGE value="feat: 백준 1008번 완료&#10;https://www.acmicpc.net/problem/1008" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 1008번 완료&#10;https://www.acmicpc.net/problem/1008" />
+    <MESSAGE value="feat: 백준 10869번 완료 &#10;https://www.acmicpc.net/problem/10869" />
+    <MESSAGE value="feat: 백준 10430번 완료 &#10;https://www.acmicpc.net/problem/10430" />
+    <MESSAGE value="feat: 백준 2588번 완료 &#10;https://www.acmicpc.net/problem/2588" />
+    <MESSAGE value="feat: 백준 1330번 완료 &#10;https://www.acmicpc.net/problem/1330" />
+    <MESSAGE value="feat: 백준 9498번 완료 &#10;https://www.acmicpc.net/problem/9498" />
+    <MESSAGE value="feat: 백준 2753번 완료 &#10;https://www.acmicpc.net/problem/2753" />
+    <MESSAGE value="feat: 백준 14681번 완료 &#10;https://www.acmicpc.net/problem/14681" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 백준 14681번 완료 &#10;https://www.acmicpc.net/problem/14681" />
   </component>
 </project>
