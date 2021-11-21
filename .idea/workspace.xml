@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4bcf9d-beb0-452e-9d51-351223c945ee" name="Changes" comment="feat: 백준 8393번 완료 &#10;https://www.acmicpc.net/problem/8393">
-      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step3/BJ15552.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekjoon/steps/step3/BJ2741.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.BJ15552">
+  <component name="RunManager" selected="Application.BJ2741">
     <configuration name="BJ15552" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjoon.steps.step3.BJ15552" />
       <module name="Algorithm_study" />
@@ -68,8 +67,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BJ2741" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjoon.steps.step3.BJ2741" />
+      <module name="Algorithm_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjoon.steps.step3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BJ2741" />
         <item itemvalue="Application.BJ15552" />
         <item itemvalue="Application.BJ2588" />
       </list>
