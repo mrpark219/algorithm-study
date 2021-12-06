@@ -1,4 +1,4 @@
-package baekjoon.steps;
+package baekjoon.steps.step5;
 
 import java.util.HashSet;
 import java.util.Scanner;
