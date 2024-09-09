@@ -1,0 +1,23 @@
+# 157339 - 특정 기간동안 대여 가능한 자동차들의 대여비용 구하기
+
+```mysql
+SELECT
+    CAR.CAR_ID AS CAR_ID,
+    CAR.CAR_TYPE AS CAR_TYPE,
+    FLOOR(CAR.DAILY_FEE * 30 * (100 - PLAN.DISCOUNT_RATE) / 100) AS FEE
+FROM
+    CAR_RENTAL_COMPANY_CAR AS CAR
+        INNER JOIN CAR_RENTAL_COMPANY_DISCOUNT_PLAN AS PLAN
+                   ON CAR.CAR_TYPE = PLAN.CAR_TYPE AND PLAN.DURATION_TYPE = '30일 이상'
+WHERE
+      CAR.CAR_TYPE IN ('세단', 'SUV')
+  AND CAR.CAR_ID NOT IN (SELECT CAR_ID
+                         FROM
+                             CAR_RENTAL_COMPANY_RENTAL_HISTORY
+                         WHERE
+                               START_DATE <= '2022-11-30'
+                           AND END_DATE >= '2022-11-01')
+  AND CAR.DAILY_FEE * 30 * (100 - PLAN.DISCOUNT_RATE) / 100 BETWEEN 500000 AND 2000000
+ORDER BY
+    FEE DESC, CAR.CAR_TYPE ASC, CAR.CAR_ID DESC;
+```
