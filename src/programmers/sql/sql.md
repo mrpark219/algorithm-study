@@ -92,3 +92,20 @@ WHERE
 ORDER BY
     RR.REVIEW_DATE ASC, RR.REVIEW_TEXT ASC
 ```
+
+# 276035 - FrontEnd 개발자 찾기
+
+```mysql
+SELECT ID, EMAIL, FIRST_NAME, LAST_NAME
+FROM
+    DEVELOPERS
+WHERE
+    (SELECT 1 <= COUNT(*)
+     FROM
+         SKILLCODES
+     WHERE
+           CATEGORY = 'Front End'
+       AND SKILL_CODE & CODE)
+ORDER BY
+    ID ASC
+```
