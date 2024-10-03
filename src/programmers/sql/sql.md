@@ -417,3 +417,13 @@ WHERE
 ORDER BY
     NAME ASC
 ```
+
+# 59409 - 중성화 여부 파악하기
+
+```mysql
+SELECT
+    ANIMAL_ID, `NAME`,
+    IF(SEX_UPON_INTAKE LIKE 'intact %', 'X', 'O') AS '중성화'
+FROM
+    ANIMAL_INS
+```
