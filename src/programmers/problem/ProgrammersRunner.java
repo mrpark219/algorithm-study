@@ -4,9 +4,8 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[] numbers = new int[]{1, 1, 1, 1, 1};
-		int target = 3;
+		int[][] sizes = new int[][]{{60, 50}, {30, 70}, {60, 30}, {80, 40}};
 
-		System.out.println(new P43165.Solution().solution(numbers, target));
+		System.out.println(new P86491.Solution().solution(sizes));
 	}
 }
