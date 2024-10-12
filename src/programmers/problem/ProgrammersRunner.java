@@ -4,8 +4,10 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[] nums = new int[]{3, 1, 2, 3};
+		int bridge_length = 2;
+		int weight = 10;
+		int[] truck_weights = new int[]{7,4,5,6};
 
-		System.out.println(new P1845.Solution().solution(nums));
+		System.out.println(new P42583.Solution().solution(bridge_length, weight, truck_weights));
 	}
 }
