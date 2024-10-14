@@ -4,9 +4,8 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[] scoville = new int[]{7,4,5,6};
-		int K = 7;
+		int[][] routes = new int[][]{{-20, -15}, {-14, -5}, {-18, -13}, {-5, -3}};
 
-		System.out.println(new P42626.Solution().solution(scoville, K));
+		System.out.println(new P42884.Solution().solution(routes));
 	}
 }
