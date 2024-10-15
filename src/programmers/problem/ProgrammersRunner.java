@@ -4,8 +4,9 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[][] routes = new int[][]{{-20, -15}, {-14, -5}, {-18, -13}, {-5, -3}};
+		int n = 4;
+		int[][] costs = new int[][]{{0, 1, 1}, {0, 2, 2}, {1, 2, 5}, {1, 3, 1}, {2, 3, 8}};
 
-		System.out.println(new P42884.Solution().solution(routes));
+		System.out.println(new P42861.Solution().solution(n, costs));
 	}
 }
