@@ -4,9 +4,8 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		String[] participant = {"leo", "kiki", "eden"};
-		String[] completion = {"eden", "kiki"};
+		String[] phone_book = {"119", "97674223", "1195524421"};
 
-		System.out.println(new P42576.Solution().solution(participant, completion));
+		System.out.println(new P42577.Solution().solution(phone_book));
 	}
 }
