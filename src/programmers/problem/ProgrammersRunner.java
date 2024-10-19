@@ -1,11 +1,13 @@
 package programmers.problem;
 
+import java.util.Arrays;
+
 public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		String[] phone_book = {"119", "97674223", "1195524421"};
+		int[] answers = {1, 2, 3, 4, 5};
 
-		System.out.println(new P42577.Solution().solution(phone_book));
+		System.out.println(Arrays.toString(new P42840.Solution().solution(answers)));
 	}
 }
