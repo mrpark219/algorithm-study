@@ -1,13 +1,11 @@
 package programmers.problem;
 
-import java.util.Arrays;
-
 public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[] arr = {1, 1, 3, 3, 0, 1, 1};
+		String numbers = "17";
 
-		System.out.println(Arrays.toString(new P12906.Solution().solution(arr)));
+		System.out.println(new P42839.Solution().solution(numbers));
 	}
 }
