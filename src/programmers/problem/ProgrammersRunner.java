@@ -4,10 +4,8 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int n = 5;
-		int[] lost = {2, 4};
-		int[] reserve = {1, 3, 5};
+		String name = "JEROEN";
 
-		System.out.println(new P42862.Solution().solution(n, lost, reserve));
+		System.out.println(new P42860.Solution().solution(name));
 	}
 }
