@@ -4,8 +4,9 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		String name = "JEROEN";
+		String number = "1924";
+		int k = 2;
 
-		System.out.println(new P42860.Solution().solution(name));
+		System.out.println(new P42883.Solution().solution(number, k));
 	}
 }
