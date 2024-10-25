@@ -1,5 +1,7 @@
 package programmers.problem;
 
+import java.util.Stack;
+
 public class P42883 {
 
 	static class Solution {
@@ -27,6 +29,34 @@ public class P42883 {
 
 			return answer.toString();
 		}
-	}
 
+		public String solutionStack(String number, int k) {
+
+			StringBuilder sb = new StringBuilder();
+			Stack<Character> stack = new Stack<>();
+
+			for(int i = 0; i < number.length(); i++) {
+
+				char current = number.charAt(i);
+
+				while(k > 0 && !stack.isEmpty() && stack.peek() < current) {
+					stack.pop();
+					k--;
+				}
+
+				stack.push(current);
+			}
+
+			while(k > 0) {
+				stack.pop();
+				k--;
+			}
+
+			for(char c : stack) {
+				sb.append(c);
+			}
+
+			return sb.toString();
+		}
+	}
 }
