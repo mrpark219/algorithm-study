@@ -7,6 +7,6 @@ public class ProgrammersRunner {
 		String number = "1924";
 		int k = 2;
 
-		System.out.println(new P42883.Solution().solution(number, k));
+		System.out.println(new P42883.Solution().solutionStack(number, k));
 	}
 }
