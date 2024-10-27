@@ -4,9 +4,8 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int k = 80;
-		int[][] dungeons = {{80, 20}, {50, 40}, {30, 10}};
+		int[][] maps = {{1, 0, 1, 1, 1}, {1, 0, 1, 0, 1}, {1, 0, 1, 1, 1}, {1, 1, 1, 0, 1}, {0, 0, 0, 0, 1}};
 
-		System.out.println(new P87946.Solution().solution(k, dungeons));
+		System.out.println(new P1844.Solution().solution(maps));
 	}
 }
