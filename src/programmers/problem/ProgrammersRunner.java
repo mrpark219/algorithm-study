@@ -4,10 +4,9 @@ public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		int[] diffs = {1, 5, 3};
-		int[] times = {2, 4, 7};
-		int limit = 30;
+		int[][] points = {{3, 2}, {6, 4}, {4, 7}, {1, 4}};
+		int[][] routes = {{4, 2}, {1, 3}, {2, 4}};
 
-		System.out.println(new P340212.Solution().solution(diffs, times, limit));
+		System.out.println(new P340211.Solution().solution(points, routes));
 	}
 }
