@@ -1,13 +1,13 @@
 package programmers.problem;
 
-import java.util.Arrays;
-
 public class ProgrammersRunner {
 
 	public static void main(String[] args) {
 
-		String[] expressions = {"14 + 3 = 17", "13 - 6 = X", "51 - 5 = 44"};
+		int k = 3;
+		int n = 5;
+		int[][] reqs = {{10, 60, 1}, {15, 100, 3}, {20, 30, 1}, {30, 50, 3}, {50, 40, 1}, {60, 30, 2}, {65, 30, 1}, {70, 100, 2}};
 
-		System.out.println(Arrays.toString(new P340210.Solution().solution(expressions)));
+		System.out.println(new P214288.Solution().solution(k, n, reqs));
 	}
 }
