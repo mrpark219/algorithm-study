@@ -3,9 +3,7 @@ package baekjoon.problem;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class BJ13549 {
 
@@ -17,12 +15,12 @@ public class BJ13549 {
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
 
-		int count = bfs(N, K);
+		int count = bfs01(N, K);
 
 		System.out.println(count);
 	}
 
-	public static int bfs(int N, int K) {
+	public static int dijkstra(int N, int K) {
 
 		int MAX = 100000;
 
@@ -50,10 +48,47 @@ public class BJ13549 {
 				distance[info.position + 1] = info.count + 1;
 				priorityQueue.add(new Info(info.position + 1, info.count + 1));
 			}
-			
+
 			if(info.position * 2 <= MAX && info.count < distance[info.position * 2]) {
 				distance[info.position * 2] = info.count;
 				priorityQueue.add(new Info(info.position * 2, info.count));
+			}
+		}
+
+		return distance[K];
+	}
+
+	public static int bfs01(int N, int K) {
+		int MAX = 100000;
+
+		int[] distance = new int[MAX + 1];
+		Arrays.fill(distance, Integer.MAX_VALUE);
+
+		Deque<Info> deque = new LinkedList<>();
+
+		deque.offer(new Info(N, 0));
+		distance[N] = 0;
+
+		while(!deque.isEmpty()) {
+			Info info = deque.poll();
+
+			if(info.position == K) {
+				return info.count;
+			}
+
+			if(info.position - 1 >= 0 && info.count + 1 < distance[info.position - 1]) {
+				distance[info.position - 1] = info.count + 1;
+				deque.offer(new Info(info.position - 1, info.count + 1));
+			}
+
+			if(info.position + 1 <= MAX && info.count + 1 < distance[info.position + 1]) {
+				distance[info.position + 1] = info.count + 1;
+				deque.offer(new Info(info.position + 1, info.count + 1));
+			}
+
+			if(info.position * 2 <= MAX && info.count < distance[info.position * 2]) {
+				distance[info.position * 2] = info.count;
+				deque.addFirst(new Info(info.position * 2, info.count));
 			}
 		}
 
