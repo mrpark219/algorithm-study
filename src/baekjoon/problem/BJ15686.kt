@@ -3,9 +3,9 @@ package baekjoon.problem
 import java.util.*
 import kotlin.math.abs
 
-var min = Integer.MAX_VALUE
-lateinit var visited: BooleanArray
-lateinit var chickenDistanceArray: Array<IntArray>
+private var min = Integer.MAX_VALUE
+private lateinit var visited: BooleanArray
+private lateinit var chickenDistanceArray: Array<IntArray>
 
 fun main() = with(System.out.bufferedWriter()) {
 
@@ -44,37 +44,36 @@ fun main() = with(System.out.bufferedWriter()) {
     }
 
     visited = BooleanArray(chickenList.size)
-    val homeCount = homeList.size
 
-    fun dfs(count: Int, index: Int) {
-        if(count == m) {
-            val distance = IntArray(homeCount) { Int.MAX_VALUE }
-
-            for(i in visited.indices) {
-                if(visited[i]) {
-                    for(j in 0 until homeCount) {
-                        distance[j] = minOf(distance[j], chickenDistanceArray[i][j])
-                    }
-                }
-            }
-
-            min = minOf(min, distance.sum())
-            return
-        }
-
-        for(i in chickenDistanceArray.indices) {
-            if(i >= index) {
-                if(!visited[i]) {
-                    visited[i] = true
-                    dfs(count + 1, i + 1)
-                    visited[i] = false
-                }
-            }
-        }
-    }
-
-    dfs(0, -1)
+    dfs(0, -1, m, homeList.size)
 
     write("$min")
     close()
+}
+
+private fun dfs(count: Int, index: Int, m: Int, homeCount: Int) {
+    if(count == m) {
+        val distance = IntArray(homeCount) { Int.MAX_VALUE }
+
+        for(i in visited.indices) {
+            if(visited[i]) {
+                for(j in 0 until homeCount) {
+                    distance[j] = minOf(distance[j], chickenDistanceArray[i][j])
+                }
+            }
+        }
+
+        min = minOf(min, distance.sum())
+        return
+    }
+
+    for(i in chickenDistanceArray.indices) {
+        if(i >= index) {
+            if(!visited[i]) {
+                visited[i] = true
+                dfs(count + 1, i + 1, m, homeCount)
+                visited[i] = false
+            }
+        }
+    }
 }

@@ -1,8 +1,8 @@
 package baekjoon.problem
 
-lateinit var passwordArray: CharArray
-lateinit var alphabetList: List<Char>
-val resultSet = sortedSetOf<String>()
+private lateinit var passwordArray: CharArray
+private lateinit var alphabetList: List<Char>
+private val resultSet = sortedSetOf<String>()
 
 fun main() = with(System.out.bufferedWriter()) {
 
@@ -21,7 +21,7 @@ fun main() = with(System.out.bufferedWriter()) {
     close()
 }
 
-fun dfs(l: Int, count: Int, index: Int) {
+private fun dfs(l: Int, count: Int, index: Int) {
 
     if(count == l) {
         val password = String(passwordArray)
@@ -37,7 +37,7 @@ fun dfs(l: Int, count: Int, index: Int) {
     }
 }
 
-fun isValidCombination(password: String): Boolean {
+private fun isValidCombination(password: String): Boolean {
     var vowelsCount = 0
 
     for(c in password) {
@@ -50,6 +50,6 @@ fun isValidCombination(password: String): Boolean {
     return vowelsCount >= 1 && consonantsCount >= 2
 }
 
-fun isVowel(c: Char): Boolean {
+private fun isVowel(c: Char): Boolean {
     return c in "aeiou"
 }
