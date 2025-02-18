@@ -3,8 +3,8 @@ package baekjoon.problem
 private var n = 0
 private var m = 0
 private const val INF = 10000L * 6000 * 500 * 10
-lateinit var distance: LongArray
-lateinit var edges: Array<IntArray>
+private lateinit var distance: LongArray
+private lateinit var edges: Array<IntArray>
 
 fun main() = with(System.out.bufferedWriter()) {
 
